@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link rel=stylesheet type=text/css href="css/styles.css">
+  </head>
+  <body>
+    <div>
+      <p id="header">Please select your gamepiece: </p>
+      <div id="gamepiece">
+        <div class="piece" id="pieceX">
+          <p>X</p>
+        </div>
+        <div class="piece" id="pieceO">
+          <p>O</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="instructions">
+      <p id="game-status"></p>
+    </div>
+
+    <div id="gameboard">
+      <!-- Game Board -->
+      <!-- <div class="col" id="col1"> -->
+        <div class="space" id="0"><p></p></div>
+        <div class="space" id="1"><p></p></div>
+        <div class="space" id="2"><p></p></div>
+      <!-- </div> -->
+      <!-- <div class="col" id="col2"> -->
+        <div class="space" id="3"><p></p></div>
+        <div class="space" id="4"><p></p></div>
+        <div class="space" id="5"><p></p></div>
+      <!-- </div> -->
+      <!-- <div class="col" id="col3"> -->
+        <div class="space" id="6"><p></p></div>
+        <div class="space" id="7"><p></p></div>
+        <div class="space" id="8"><p></p></div>
+      <!-- </div> -->
+    </div>
+
+
+    <div id="game-menu">
+      <div class="score">Player: <p id="player-score">0</p></div>
+      <div class="score">Computer: <p id="comp-score">0</p></div>
+
+      <button id="score-reset">Reset Score</button>
+      <button id="game-reset">Reset Game Board</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+
+  <footer>
+    <p>Copyright 2019 Christopher Giglio</p>
+  </footer>
+</html>
