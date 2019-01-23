@@ -9,7 +9,7 @@
 
 1. To begin, select which piece you will use, either X or O.
 
-2. Upon selection, either the plaer or the computer will be randomly selected to go first. Refer to the instruction area for details.
+2. Upon selection, either the player or the computer will be randomly selected to go first. Refer to the instruction area for details.
 
 3. On your turn, select the space you'd like to place your piece.
 
@@ -19,3 +19,8 @@ Get 3 in a row of your piece, either vertically, horizontally, or diagonally. Ma
 * When the game is over you can select *Reset Game Board* to try again, or *Reset Score* to erase all progess.
 
 ### Good Luck!
+
+
+![](GameImages/GameImage01.png)
+![](GameImages/GameImage02.png)
+![](GameImages/GameImage03.png)
