@@ -23,7 +23,7 @@ const winCombos = [
 
 // Updates the game instructions when called.
 function setInstructions(instructions) {
-  console.log("Instr:" + instructions);
+  // console.log("Instr:" + instructions);
   document.getElementById('game-status').innerHTML = instructions;
 }
 
@@ -126,7 +126,7 @@ function turnClick(space) {
           setTimeout(function() {
             turn(bestSpot(), aiPlayer);
             if (gameActive) {
-              console.log(instructions);
+              // console.log(instructions);
               instructions = "Your turn!";
               setInstructions(instructions);
             }
